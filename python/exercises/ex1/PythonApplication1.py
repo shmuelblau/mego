@@ -1,5 +1,5 @@
 import random
-
+print(5)
 
 class time:
     
