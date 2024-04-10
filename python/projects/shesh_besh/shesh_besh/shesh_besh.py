@@ -90,7 +90,7 @@ def ispossibie(board,player,dice,choices):
     return False        
    
 def transfer(board,player,dice,loc):
-    if player%2 ==0:
+    if player%2 == 0:
         if dice+loc > 24:
             board[loc]-=1
             
@@ -101,6 +101,8 @@ def transfer(board,player,dice,loc):
                 
             board[loc]-=1
             board[loc+dice]+=1
+            #
+            print(board[loc+dice])
     else:
         if loc-dice < 1:
             board[loc]+=1
@@ -113,16 +115,17 @@ def transfer(board,player,dice,loc):
             board[loc-dice]-=1
            
     return board
-board=[2,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,-1]
+#board=[0,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
+board=[5,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
 player=0
 dice=[0,0]
 choices=[1,1,0,0]
 Printer(board)
 while True:
     
-    dice=[0,0]
-    dice[0]=random.randint(1,6)
-    dice[1]=random.randint(1,6)
+    dice=[1,1]
+    #dice[0]=random.randint(1,6)
+    #dice[1]=random.randint(1,6)
     choices=[1,1,0,0]
     if dice[1]==dice[0]:
         choices[2]=1
@@ -132,10 +135,16 @@ while True:
     
     while True:
         if board[(player%2)*25] != 0 :
+             if ispossibie(board,player,dice,choices) == False:
+                print(1111)
+                break 
+             
              choiceply=int(input("you have a game pieces out enter namber dice to play"))
              if check(board,player,dice[choiceply],(player%2)*25) == True:
                 board=transfer(board,player,dice[choiceply],(player%2)*25)
                 choices[choiceply]= 0
+                #
+                print("buzha")
              else:
                  print(check(board,player,dice[choiceply],(player%2)*25))
         else:
@@ -152,13 +161,15 @@ while True:
         while True:  
             
             choiceply=int(input("Type the number of the dice you want to play with"))
-            if (choiceply >-1 and choiceply<5) and choices[choiceply]!= 0 :
+            if (choiceply >-1 and choiceply<4) and choices[choiceply]!= 0 :
                 break
             
         loc=int(input("Where do you want to insert the number {}".format(dice[choiceply])))
         if check(board,player,dice[choiceply],loc) == True:
             board=transfer(board,player,dice[choiceply],loc)
-            choices[choiceply]= 0
+            choices[choiceply]=0
+            #
+            print("buzha")
         else:
             print(check(board,player,dice[choiceply],loc))
         if sum(choices)==0:
