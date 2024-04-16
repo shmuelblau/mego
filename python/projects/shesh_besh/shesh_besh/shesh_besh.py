@@ -37,7 +37,17 @@ def Printer(board):
                     print('   ▌', end = '')
         print('▐')
     print("")
- 
+def throwing():
+    dice=[0,0]
+    
+    dice[0]=random.randint(1,6)
+    dice[1]=random.randint(1,6)
+    dices=[dice[0],dice[1],0,0]
+    if dice[1]==dice[0]:
+       dices[2]=dice[1]
+       dices[3]=dice[1]
+    return dices
+
 def check_won(board):
     
     for i in range(26):
@@ -55,7 +65,7 @@ def check(board,player,dice,loc):
             return "You have no game pieces in place"
         if board[loc+dice]<-1:
             return "The position is occupied by the other player"
-        if loc-dice > 24:
+        if loc+dice > 24:
             c=0
             for i in (0,19):
                 if board[i]>0:
@@ -116,16 +126,16 @@ def transfer(board,player,dice,loc):
            
     return board
 #board=[0,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
-board=[5,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
+board=[0,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
 player=0
 dice=[0,0]
 choices=[1,1,0,0]
 Printer(board)
 while True:
     
-    dice=[1,1]
-    #dice[0]=random.randint(1,6)
-    #dice[1]=random.randint(1,6)
+    dice=[0,0]
+    dice[0]=random.randint(1,6)
+    dice[1]=random.randint(1,6)
     choices=[1,1,0,0]
     if dice[1]==dice[0]:
         choices[2]=1
@@ -136,7 +146,7 @@ while True:
     while True:
         if board[(player%2)*25] != 0 :
              if ispossibie(board,player,dice,choices) == False:
-                print(1111)
+                
                 break 
              
              choiceply=int(input("you have a game pieces out enter namber dice to play"))
