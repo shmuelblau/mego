@@ -5,7 +5,7 @@ def Printer(board):
         print('    ▌', end = '')
         for j in range(12,0,-1):
             piece = board[j]
-            if(piece > 0 and piece>=i):
+            if(piece > 0 and piece >= i):
                 print(' ● ', end = '')
             elif(piece < 0 and -piece >= i):
                 print(' ○ ', end = '')
@@ -40,12 +40,12 @@ def Printer(board):
 def throwing():
     dice=[0,0]
     
-    dice[0]=random.randint(1,6)
-    dice[1]=random.randint(1,6)
-    dices=[dice[0],dice[1],0,0]
-    if dice[1]==dice[0]:
-       dices[2]=dice[1]
-       dices[3]=dice[1]
+    dice[0] = random.randint(1,6)
+    dice[1] = random.randint(1,6)
+    dices = [dice[0],dice[1],0,0]
+    if dice[1] == dice[0]:
+       dices[2] = dice[1]
+       dices[3] = dice[1]
     return dices
 
 def check_won(board):
@@ -58,30 +58,30 @@ def check_won(board):
                 
     return True
 def check(board,player,dice,loc):
-    if loc>25:
+    if loc > 25:
         return "Type a number between 0 and 25"
-    if player%2 == 0:
-        if board[loc]<1:
+    if player % 2 == 0:
+        if board[loc] < 1:
             return "You have no game pieces in place"
         if board[loc+dice]<-1:
             return "The position is occupied by the other player"
         if loc+dice > 24:
             c=0
             for i in (0,19):
-                if board[i]>0:
-                    c+=1
+                if board[i] > 0:
+                    c += 1
             if c > 0:
                 return "You can't take out before you put everything in the house"
     else:
-        if board[loc] >-1 :
+        if board[loc] >- 1 :
             return "You have no game pieces in place"
         if board[loc-dice] > 1 :
             return "The position is occupied by the other player"
         if loc-dice < 1:
             c=0
             for i in (7,25):
-                if board[i]>0:
-                    c+=1
+                if board[i] > 0:
+                    c += 1
             if c > 0:
                 return "You can't take out before you put everything in the house"
             
@@ -100,17 +100,17 @@ def ispossibie(board,player,dice,choices):
     return False        
    
 def transfer(board,player,dice,loc):
-    if player%2 == 0:
+    if player % 2 == 0:
         if dice+loc > 24:
-            board[loc]-=1
+            board[loc] -= 1
             
         else:
             if board[loc+dice] == -1:
-                board[loc+dice]+=1
-                board[25]-=1
+                board[loc+dice] += 1
+                board[25] -= 1
                 
-            board[loc]-=1
-            board[loc+dice]+=1
+            board[loc] -= 1
+            board[loc+dice] += 1
             #
             print(board[loc+dice])
     else:
@@ -125,34 +125,36 @@ def transfer(board,player,dice,loc):
             board[loc-dice]-=1
            
     return board
+
 #board=[0,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
 board=[0,2,0,0,0,0,-5,0,-3,0,0,0,5,-5,0,0,0,3,0,5,0,0,0,0,-2,0]
 player=0
 dice=[0,0]
 choices=[1,1,0,0]
 Printer(board)
+
 while True:
     
-    dice=[0,0]
-    dice[0]=random.randint(1,6)
-    dice[1]=random.randint(1,6)
-    choices=[1,1,0,0]
-    if dice[1]==dice[0]:
-        choices[2]=1
-        choices[3]=1
-        dice=[dice[0]]*4
+    dice = [0,0]
+    dice[0] = random.randint(1,6)
+    dice[1] = random.randint(1,6)
+    choices = [1,1,0,0]
+    if dice[1] == dice[0]:
+        choices[2] = 1
+        choices[3] = 1
+        dice = [dice[0]] * 4
     print("player: {}   Your dice are: {} {}".format(player%2,dice[0],dice[1]))
     
     while True:
-        if board[(player%2)*25] != 0 :
+        if board[(player%2)  *25] != 0 :
              if ispossibie(board,player,dice,choices) == False:
                 
                 break 
              
-             choiceply=int(input("you have a game pieces out enter namber dice to play"))
+             choiceply = int(input("you have a game pieces out enter namber dice to play"))
              if check(board,player,dice[choiceply],(player%2)*25) == True:
-                board=transfer(board,player,dice[choiceply],(player%2)*25)
-                choices[choiceply]= 0
+                board = transfer(board,player,dice[choiceply],(player%2)*25)
+                choices[choiceply] = 0
                 #
                 print("buzha")
              else:

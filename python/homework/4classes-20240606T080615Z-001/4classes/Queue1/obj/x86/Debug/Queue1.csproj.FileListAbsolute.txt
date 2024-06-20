@@ -1,0 +1,144 @@
+C:\Documents and Settings\student.ZIV\Desktop\Queue1\Queue1\bin\Debug\Queue1.exe
+C:\Documents and Settings\student.ZIV\Desktop\Queue1\Queue1\bin\Debug\Queue1.pdb
+C:\Documents and Settings\student.ZIV\Desktop\Queue1\Queue1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\student.ZIV\Desktop\Queue1\Queue1\obj\x86\Debug\Queue1.exe
+C:\Documents and Settings\student.ZIV\Desktop\Queue1\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\Queue1\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\Queue1\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\Queue1\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\Queue1\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\Queue1\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\listackQ\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\listackQ\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\listackQ\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\listackQ\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\listackQ\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+N:\Eetsuv\תשעז\תכנית חדשה\listackQ\Queue1\obj\x86\Debug\Queue1.exe
+N:\Eetsuv\תשעז\תכנית חדשה\listackQ\Queue1\obj\x86\Debug\Queue1.pdb
+N:\Eetsuv\תשעז\תכנית חדשה\q4 תשע\Queue1\obj\x86\Debug\Queue1.exe
+N:\Eetsuv\תשעז\תכנית חדשה\q4 תשע\Queue1\obj\x86\Debug\Queue1.pdb
+N:\Eetsuv\תשעז\תכנית חדשה\q4 תשע\Queue1\bin\Debug\Queue1.exe
+N:\Eetsuv\תשעז\תכנית חדשה\q4 תשע\Queue1\bin\Debug\Queue1.pdb
+N:\Eetsuv\תשעז\תכנית חדשה\q4 תשע\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\q4 תשע\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\q4 תשע\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\q4 תשע\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\q4 תשע\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\q4 תשע\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\PreInPostOrder\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\PreInPostOrder\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\PreInPostOrder\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\PreInPostOrder\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\PreInPostOrder\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\BuildSearchTree\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\BuildSearchTree\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\BuildSearchTree\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\BuildSearchTree\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\BuildSearchTree\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\Yae\Desktop\BuildSearchTree2\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Yae\Desktop\BuildSearchTree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Yae\Desktop\BuildSearchTree2\Queue1\bin\Debug\Queue1.exe
+C:\Users\Yae\Desktop\BuildSearchTree2\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Yae\Desktop\BuildSearchTree2\Queue1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student.ZIV\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\student.ZIV\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\student.ZIV\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+C:\Users\student.ZIV\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+C:\Users\student.ZIV\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\User\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\User\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+C:\Users\User\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+C:\Users\User\Desktop\רשימה מקושרת\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+D:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+D:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+D:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+D:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+D:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+F:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+F:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+F:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+F:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+F:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\student.ZIV\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\student.ZIV\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\student.ZIV\Desktop\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+C:\Users\student.ZIV\Desktop\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+C:\Users\student.ZIV\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+J:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+J:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+J:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+J:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+J:\BuildSearchT+ree2\Queue1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+E:\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+E:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+E:\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+E:\BuildSearchT+ree2\Queue1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\BuildSearchT+ree2 credit- ofek zada\Queue1\obj\x86\Debug\Queue1.exe
+F:\BuildSearchT+ree2 credit- ofek zada\Queue1\obj\x86\Debug\Queue1.pdb
+F:\BuildSearchT+ree2 credit- ofek zada\Queue1\bin\Debug\Queue1.exe
+F:\BuildSearchT+ree2 credit- ofek zada\Queue1\bin\Debug\Queue1.pdb
+F:\BuildSearchT+ree2 credit- ofek zada\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\BuildSearchT+ree2\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\BuildSearchT+ree2\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\meirp\Desktop\OfekZada\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\meirp\Desktop\OfekZada\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\OfekZada\Queue1\bin\Debug\Queue1.exe
+C:\Users\meirp\Desktop\OfekZada\Queue1\bin\Debug\Queue1.pdb
+C:\Users\meirp\Desktop\OfekZada\Queue1\obj\x86\Debug\Queue1.csprojResolveAssemblyReference.cache
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.exe
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.pdb
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\pmeir\Desktop\‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csprojAssemblyReference.cache
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\bin\Debug\Queue1.exe
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\bin\Debug\Queue1.pdb
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csprojAssemblyReference.cache
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\pmeir\Documents\meir\עיצוב\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\m\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\m\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\‏‏OfekZada\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\אד\tsm11node\‏‏‏‏OfekZada - עותק\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\m\אד\tsm11node\list\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\Hamdani\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\Hamdani\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\Hamdani\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Hamdani\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Hamdani\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\Hamdani\Queue1\obj\x86\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\4classes\Queue1\bin\Debug\Queue1.exe
+C:\Users\Owner\Desktop\4classes\Queue1\bin\Debug\Queue1.pdb
+C:\Users\Owner\Desktop\4classes\Queue1\obj\x86\Debug\Queue1.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\4classes\Queue1\obj\x86\Debug\Queue1.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\4classes\Queue1\obj\x86\Debug\Queue1.exe
+C:\Users\Owner\Desktop\4classes\Queue1\obj\x86\Debug\Queue1.pdb
