@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Debt App</title>
+    <style>
+        .container {
+            text-align: center !important;
+            margin: 0 auto;
+            position: relative;
+            width: 70%;
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 20%;
+            padding: 10px;
+            margin-left: 2%;
+        }
+        #response {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="selectForm">
+            <input type="text" id="select" name="select" required> <input type="submit" value="Select">
+        </form>
+
+        <br>
+
+        <form id="setForm">
+            <input type="text" id="set" name="set" required> <input type="submit" value="Set">
+        </form>
+
+        <br>
+
+        <form id="printForm">
+            <input type="submit" value="Print">
+        </form>
+
+        <div id="response"></div>
+
+        <script>
+            document.getElementById('selectForm').addEventListener('submit', async function(event) {
+                event.preventDefault(); // Prevent form from submitting normally
+    
+                // Create a FormData object with the form's data
+                const formData = new FormData(this);
+
+                const queryParams = new URLSearchParams(formData).toString();
+    
+                try {
+                    // Send the form data using fetch
+                    const response = await fetch(`/select?${queryParams}`, {
+                        method: 'GET',
+                    });
+    
+                    if (response.ok) {
+                        // If the request was successful, get the response text
+                        const result = await response.text();
+                        document.getElementById('response').innerHTML = result;
+                    } else {
+                        // If there was an error with the response
+                        document.getElementById('response').innerHTML = 'Error 1: ' + response.statusText;
+                    }
+                } catch (error) {
+                    // If there was an error during the fetch process
+                    document.getElementById('response').innerHTML = 'Error 2: ' + error.message;
+                }
+            });
+
+
+            document.getElementById('setForm').addEventListener('submit', async function(event) {
+                event.preventDefault(); // Prevent form from submitting normally
+    
+                // Create a FormData object with the form's data
+                const formData = new FormData(this);
+    
+                try {
+                    // Send the form data using fetch
+                    const response = await fetch('/set', {
+                        method: 'POST',
+                        body: formData,
+                    });
+    
+                    if (response.ok) {
+                        // If the request was successful, get the response text
+                        const result = await response.text();
+                        document.getElementById('response').innerHTML = result;
+                    } else {
+                        // If there was an error with the response
+                        document.getElementById('response').innerHTML = 'Error 1: ' + response.statusText;
+                    }
+                } catch (error) {
+                    // If there was an error during the fetch process
+                    document.getElementById('response').innerHTML = 'Error 2: ' + error.message;
+                }
+            });
+
+
+            document.getElementById('printForm').addEventListener('submit', async function(event) {
+                event.preventDefault(); // Prevent form from submitting normally
+        
+                try {
+                    // Send the form data using fetch
+                    const response = await fetch('/print', {
+                        method: 'GET',
+                    });
+    
+                    if (response.ok) {
+                        // If the request was successful, get the response text
+                        const result = await response.text();
+                        document.getElementById('response').innerHTML = result;
+                    } else {
+                        // If there was an error with the response
+                        document.getElementById('response').innerHTML = 'Error 1: ' + response.statusText;
+                    }
+                } catch (error) {
+                    // If there was an error during the fetch process
+                    document.getElementById('response').innerHTML = 'Error 2: ' + error.message;
+                }
+            });
+
+        </script>
+    </div>
+</body>
+</html>
