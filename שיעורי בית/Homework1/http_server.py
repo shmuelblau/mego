@@ -4,6 +4,7 @@ from os.path import abspath, dirname
 import sys
 import csv
 import manegDB
+from manegDB import Client
 
 
 
@@ -14,17 +15,36 @@ PRINT = 2
 # TODO
 def get_resp(q_type, query, db, csv_name):
     if q_type == SELECT:
-        return manegDB.get_amount_by_id(db,query)
+        arr=db.filter_clients(query)
+        r=""
+        for i in arr:
+            r+=i.show()+"\n"
+        return r
+        
     elif q_type == SET:
 
         if check_query(query)==True:
            writing_to_file(csv_name,query)
-           return manegDB.upsert_person(db,query)
+           user = Client(query)
+           user2=db.get_client_by_id(user.id_number)
+           user2.updating(user)
+           return user2.show()
+
        
         return check_query(query)
+    elif  q_type == PRINT:
+        arr=db.get_all()
+        r=""
+        for i in arr:
+            r+=i.show()+"\n"
+        return r
+        
+
+
+
     
 
-    return manegDB.get_amount_by_id(db,query)
+    
 
 def check_query(query):
     try:
@@ -149,7 +169,8 @@ def start_server(port=8888):
     print(*lines, sep="\n")
 
     # TODO
-    db = manegDB.start()
+    db = manegDB.ManegDB()
+    db.start(csv_name)
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind(('0.0.0.0', port))
